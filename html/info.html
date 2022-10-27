@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сайт</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="site-logo" src="../image/innopolis_logo.svg" alt="Лого">
+
+    <ul class="site-menu">
+      <li><a class="menu-link" href="../index.html">Главная</a></li>
+      <li><a class="menu-link" href="./students.html">Студенты</a></li>
+      <li><a class="menu-link active-link" href="#">О курсе</a></li>
+      <li><a class="menu-link" href="./contact.html">Контакты</a></li>
+    </ul>
+
+    <a class="login-botton" href="login.html">Войти</a>
+
+    <div class="login-popup">
+      <h2 class="login-heading">Войти на сайт </h2>
+      <form class="login-form" action="#" method="get">
+        <input class="login-input" name="login" type="email" placeholder="Логин" required ="">
+        <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+        <button class="popup-button" type="submit">Войти</button>
+      </form>
+    </div>
+  </header>
+  <main class="main main-about">
+    <h1 class="main-heading">О курсе 🌏</h1>
+    <p class="about-text">Посмотрите видео о нас</p>
+    <iframe  class="about-video" width="560" height="315" src="https://www.youtube.com/embed/nUvCVoekLoA" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </main>
+
+  <footer class="footer">
+    <p class="copywhrite">2022 &copy; <a class="innopolis-link" href="https://innopolis.com"> учебный центр</a></p>
+  </footer>
+
+  <script defer src="../js/login-popup.js"></script>
+
+</body>
+</html>

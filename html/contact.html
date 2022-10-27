@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сайт</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+  <body class="page">
+
+  <header class="header">
+    <img class="site-logo" src="../image/innopolis_logo.svg" alt="Лого">
+
+    <ul class="site-menu">
+      <li><a class="menu-link" href="../index.html">Главная</a></li>
+      <li><a class="menu-link" href="./students.html">Студенты</a></li>
+      <li><a class="menu-link" href="./info.html">О курсе</a></li>
+      <li><a class="menu-link active-link" href="#">Контакты</a></li>
+    </ul>
+
+    <a class="login-botton" href="login.html">Войти</a>
+
+    <div class="login-popup">
+      <h2 class="login-heading">Войти на сайт </h2>
+      <form class="login-form" action="#" method="GET">
+        <input class="login-input" name="login" type="text" placeholder="Логин" required ="">
+        <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+        <button class="popup-button" type="submit">Войти</button>
+      </form>
+    </div>
+  </header>
+  <main class="main contacts-about">
+    <h1 class="main-heading contacts-heading">Как нас найти 🌏</h1>
+    <div class="map-yandex" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.470453%2C59.922358&utm_medium=mapframe&utm_source=maps&z=11.73" style="color:#eee;font-size:12px;position:absolute;top:14px;">Санкт‑Петербург и Ленинградская область — Яндекс Карты</a><iframe class="contact-maps"
+      src="https://yandex.ru/map-widget/v1/-/CCUZ6HbTcD" width="560" height="400" style="border:0;"></iframe></div>
+      <h2 class="contacts-text-heading">Наши контакты</h2>
+      <address class="contacts-address">
+        <p>Адрес: г. Санкт-Петербург,  Дворцовая пл., 2, 1900000</p>
+        <a class="contacts-tel" href="tel:+781255555555">Тел: +7 (812) 555-555-55</a>
+      </address>
+  </main>
+
+    <footer class="footer">
+      <p class="copywhrite">2022 &copy; <a class="innopolis-link" href="https://innopolis.com"> учебный центр</a></p>
+    </footer>
+
+    <script defer src="../js/login-popup.js"></script>
+  </body>
+  </html>
